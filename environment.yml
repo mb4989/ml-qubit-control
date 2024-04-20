@@ -1,0 +1,25 @@
+name: ml-qubit-control-env
+channels:
+  - nvidia
+  - conda-forge
+dependencies:
+  - python==3.10
+  - cudatoolkit
+  - cudnn
+  - ipython
+  - jupyterlab
+  - jupyterlab-git
+  - nodejs
+  - ffmpeg
+  - pydot
+  - graphviz
+  - pip
+  - tensorflow-gpu=2.11.0
+  - pip:
+    - jupyter
+    - pandas
+    - matplotlib
+    - hls4ml[profiling]
+    - scikit-learn
+    - keras_sequential_ascii
+    - qkeras==0.9.0

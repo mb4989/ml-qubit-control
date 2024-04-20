@@ -1,0 +1,36 @@
+
+{
+  "pulse_parameters":
+  {
+    "Tgate" : 125.0,
+    "pulseamplitudemax" : 0.02,
+    "D1" : 10
+  },
+
+  "qubit_parameters" :
+  {
+    "Nquditlevel" : 2,
+    "Nguardlevel" : 0,
+    "qubitfreq" : 5.0,
+    "qubitanharmonicity" : 200e-3
+  },
+
+  "simulation_parameters" :
+  {
+    "Pmin" : 200
+  },
+
+  "optimization_parameters" :
+  {
+    "maxIter" : 100,
+    "lbfgsMax" : 10,
+    "ipTol" : 1e-8,
+    "acceptTol" : 1e-8,
+    "acceptIter" : 15
+  },
+
+    "other_parameters" :
+  {
+    "version" : "v0.2"
+  }
+}
